@@ -1,0 +1,26 @@
+./grep Rutuja /home/rutuja/t.txt
+./grep -w Rutuja /home/rutuja/t.txt
+./grep -i Rutuja /home/rutuja/t.txt
+./grep -y Rutuja /home/rutuja/t.txt
+./grep -m 3 Rutuja /home/rutuja/t.txt
+./grep -v Rutuja /home/rutuja/t.txt
+./grep -H Rutuja /home/rutuja/t.txt
+./grep -h Rutuja /home/rutuja/t.txt
+./grep -c Rutuja /home/rutuja/t.txt
+./grep -b Rutuja /home/rutuja/t.txt
+./grep -o Rutuja /home/rutuja/t.txt
+./grep -f /home/rutuja/d.txt /home/rutuja/t.txt
+./grep -r Rutuja /home/rutuja/r
+./grep -w -i Rutuja /home/rutuja/d.txt
+./grep -e ^R /home/rutuja/t.txt
+./grep -E [x-z] /home/rutuja/t.txt
+./grep -w -i -H -b Rutuja /home/rutuja/t.txt
+./grep -v -H -i -w -b Rutuja /home/rutuja/t.txt
+./grep -i -v -H -w -b -c Rutuja /home/rutuja/t.txt
+./grep -b -r -i -c -v -H -f /home/rutuja/d.txt /home/rutuja/r
+./grep -i -r -w -v -f /home/rutuja/d.txt /home/rutuja/r
+./grep -i -H -b -e [R] /home/rutuja/d.txt
+./grep -c -w -i Rutuja /home/rutuja/d.txt
+
+
+

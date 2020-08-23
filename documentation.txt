@@ -1,0 +1,45 @@
+******	IMPLEMENTATION OF GREP COMMAND	***********
+
+This is a complete project (final stage) 
+
+**********************************************************
+
+List of the options covered
+
+1. if no option given the print "usage".
+2. Display lines maching with pattern
+3. --help  - 	Display help for grep command.
+4. -V 	-	Display version
+5. -v	-	Display non maching lines.
+6. -c	-	print only a count of selected lines of FILE
+7. -i	-	ignore case distinctions
+8. -w	- 	Display lines containing word matching pattern
+9. -o	-	Print matching part of file
+10. -m	-	Print matching lines upto max number of lines
+11. -f	-	Pattern from file
+12. -r	-       Read all files under each directory, recursively, following symbolic links only if they are on the command line.
+13. -E  -	Interpret PATTERN as an extended regular expression
+14. -e  -       Use PATTERN as the pattern.
+15. -q  -       Quiet; do not write anything to standard output.
+16. -b  -       Print the 0-based  byte  offset  within  the  input  file  before  each  line  of  output.
+17. -H  -       Print  the  file  name  for  each  match. This is the default when there is more than one file to search.
+18. -h  -       Suppress the prefixing of file names on output.
+
+***********************************************************************************
+grep works even if max with -m option is less than 0. This bug is removed
+************************************************************************************
+
+Files :
+
+mygrep.h	-	header file
+mygrep.c	-	Function implementation file
+grep.c		-	main file
+queue.c		-	Use queue ADT
+queue.h		-	Header file for queue ADT
+temp.txt	-	It is used to store file name in recursive search (-r).
+
+**************************************************************************************
+
+Folders : 
+files		-	Containing text files for help, version and usage. 
+
